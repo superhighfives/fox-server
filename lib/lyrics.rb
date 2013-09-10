@@ -27,33 +27,33 @@ class Lyrics
       {id: 17, time: 17, keyword: "fox"},
       {id: 18, time: 19, keyword: "fox"},
 
-      {id: 19, time: 21.25, keyword: "rude", line: "And she could be rude"},
-      {id: 20, time: 22.25, keyword: "silly", line: "And silly and crude"},
-      {id: 21, time: 23.25, keyword: "sticks", line: "She put sticks in the spokes"},
-      {id: 22, time: 24.25, keyword: "bicycle", line: "Of my bicycle"},
+      {id: 19, time: 21, keyword: "rude", line: "And she could be rude"},
+      {id: 20, time: 22, keyword: "silly", line: "And silly and crude"},
+      {id: 21, time: 23, keyword: "sticks", line: "She put sticks in the spokes"},
+      {id: 22, time: 24, keyword: "bicycle", line: "Of my bicycle"},
 
-      {id: 23, time: 25.25, keyword: "ground", line: "And when I hit the ground"},
-      {id: 24, time: 26.25, keyword: "sound", line: "With a deafening sound"},
-      {id: 25, time: 27.25, keyword: "rolled", line: "She rolled around"},
-      {id: 26, time: 28.25, keyword: "Laughing", line: "Laughing uncontrollably"},
+      {id: 23, time: 25, keyword: "ground", line: "And when I hit the ground"},
+      {id: 24, time: 26, keyword: "sound", line: "With a deafening sound"},
+      {id: 25, time: 27, keyword: "rolled", line: "She rolled around"},
+      {id: 26, time: 28, keyword: "Laughing", line: "Laughing uncontrollably"},
 
-      {id: 27, time: 29.25, keyword: "night", line: "And when night would fall"},
-      {id: 28, time: 30.25, keyword: "talk", line: "We'd have cookouts and talk"},
-      {id: 29, time: 31.25, keyword: "everyone", line: "About if everyone hears"},
-      {id: 30, time: 32.25, keyword: "see", line: "And can see the sounds"},
+      {id: 27, time: 29, keyword: "night", line: "And when night would fall"},
+      {id: 28, time: 30, keyword: "talk", line: "We'd have cookouts and talk"},
+      {id: 29, time: 31, keyword: "everyone", line: "About if everyone hears"},
+      {id: 30, time: 32, keyword: "see", line: "And can see the sounds"},
 
-      {id: 31, time: 33.25, keyword: "space", line: "Of time and of space"},
-      {id: 32, time: 34.25, keyword: "gravity", line: "Oh gravity oh haste"},
-      {id: 33, time: 35.25, keyword: "world", line: "And the world spinning round"},
-      {id: 34, time: 36.25, keyword: "spins", line: "The world spins round"},
+      {id: 31, time: 33, keyword: "space", line: "Of time and of space"},
+      {id: 32, time: 34, keyword: "gravity", line: "Oh gravity oh haste"},
+      {id: 33, time: 35, keyword: "world", line: "And the world spinning round"},
+      {id: 34, time: 36, keyword: "spins", line: "The world spins round"},
 
-      {id: 35, time: 37.25, keyword: "fox"},
-      {id: 36, time: 39.25, keyword: "fox"},
+      {id: 35, time: 37, keyword: "fox"},
+      {id: 36, time: 39, keyword: "fox"},
 
-      {id: 37, time: 41.25, keyword: "fox"},
-      {id: 38, time: 43.25, keyword: "fox"},
-      {id: 39, time: 45.25, keyword: "fox"},
-      {id: 40, time: 47.25, keyword: "fox"}
+      {id: 37, time: 41, keyword: "fox"},
+      {id: 38, time: 43, keyword: "fox"},
+      {id: 39, time: 45, keyword: "fox"},
+      {id: 40, time: 47, keyword: "fox"}
     ].map {|l| OpenStruct.new(l)}
   end
 
