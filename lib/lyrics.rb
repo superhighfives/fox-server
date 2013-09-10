@@ -47,13 +47,13 @@ class Lyrics
       {id: 33, time: 35.25, keyword: "world", line: "And the world spinning round"},
       {id: 34, time: 36.25, keyword: "spins", line: "The world spins round"},
 
-      {id: 35, time: 37.25, keyword: "fox"},
-      {id: 36, time: 39.25, keyword: "fox"},
+      {id: 35, time: 37, keyword: "fox"},
+      {id: 36, time: 39, keyword: "fox"},
 
-      {id: 37, time: 41.25, keyword: "fox"},
-      {id: 38, time: 43.25, keyword: "fox"},
-      {id: 39, time: 45.25, keyword: "fox"},
-      {id: 40, time: 47.25, keyword: "fox"}
+      {id: 37, time: 41, keyword: "fox"},
+      {id: 38, time: 43, keyword: "fox"},
+      {id: 39, time: 45, keyword: "fox"},
+      {id: 40, time: 47, keyword: "fox"}
     ].map {|l| OpenStruct.new(l)}
   end
 

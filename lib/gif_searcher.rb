@@ -21,7 +21,7 @@ class GifSearcher
     attempts = 1
     begin
       Giphy.search(text, {limit: 10}).sample
-    rescue Giphy::Error => e
+    rescue Giphy::Errors => e
       log "Giphy returned an error: #{e.inspect}"
       if attempts <= SEARCH_RETRY_ATTEMPTS
         puts "Attempt #{attempts}. Retrying..."
