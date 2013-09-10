@@ -4,7 +4,6 @@ class GifSearcher
 
   def random_result(text)
     if gif = search(text)
-      puts gif.inspect
       log "Found: \"#{text}\"."
       {
         url: gif.original_image.url,
