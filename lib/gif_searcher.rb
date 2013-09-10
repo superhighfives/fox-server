@@ -4,6 +4,7 @@ class GifSearcher
 
   def random_result(text)
     if gif = search(text)
+      puts gif.inspect
       log "Found: \"#{text}\"."
       {
         url: gif.original_image.url,
@@ -21,8 +22,7 @@ class GifSearcher
     attempts = 1
     begin
       Giphy.search(text, {limit: 10}).sample
-    rescue
-    rescue Giphy::Error::ClientError => e
+    rescue Giphy::Error => e
       log "Giphy returned an error: #{e.inspect}"
       if attempts <= SEARCH_RETRY_ATTEMPTS
         puts "Attempt #{attempts}. Retrying..."

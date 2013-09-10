@@ -1093,3 +1093,17 @@
 [09/10/13 02:40:15 +0100 titan.lan (34742)] INFO : Installing Sinatra instrumentation
 [09/10/13 02:40:15 +0100 titan.lan (34742)] INFO : Installing deferred Rack instrumentation
 [09/10/13 02:40:15 +0100 titan.lan (34742)] INFO : Finished instrumentation
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Starting the New Relic agent in "development" environment.
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Reading configuration from config/newrelic.yml
+[09/10/13 12:40:49 +0100 titan.lan (38970)] ERROR : Unable to read configuration file config/newrelic.yml: undefined method `key?' for "---":String
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Enabling the Request Sampler.
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Environment: development
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : No known dispatcher detected.
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Application: development
+[09/10/13 12:40:49 +0100 titan.lan (38970)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Installing Dalli Memcache instrumentation
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Installing Net instrumentation
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Installing Sinatra instrumentation
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Installing deferred Rack instrumentation
+[09/10/13 12:40:49 +0100 titan.lan (38970)] INFO : Finished instrumentation
