@@ -7,7 +7,7 @@ gem 'sinatra-cross_origin'
 gem 'sinatra-contrib'
 gem 'sinatra-jsonp'
 gem 'dalli'
-gem 'json'
+gem 'json', '1.8.2'
 gem 'giphy'
 gem 'newrelic_rpm'
 
